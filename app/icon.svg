@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Gradasi Ungu -->
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+  </defs>
+
+  <!-- Lingkaran Background (Sisi luarnya transparan) -->
+  <circle cx="50" cy="50" r="50" fill="url(#purpleGrad)" />
+
+  <!-- Kue Lapis Bawah -->
+  <rect x="25" y="60" width="50" height="20" rx="4" fill="#ffffff" />
+  
+  <!-- Kue Lapis Atas -->
+  <rect x="30" y="45" width="40" height="15" rx="3" fill="#f3e8ff" />
+  
+  <!-- Lilin -->
+  <rect x="47" y="30" width="6" height="15" rx="2" fill="#fef08a" />
+  
+  <!-- Api Lilin -->
+  <path d="M50 15 C45 23 45 28 50 30 C55 28 55 23 50 15 Z" fill="#fde047" />
+  
+  <!-- Hiasan Titik-titik di Kue -->
+  <circle cx="35" cy="70" r="2" fill="#d8b4fe" />
+  <circle cx="50" cy="70" r="2" fill="#d8b4fe" />
+  <circle cx="65" cy="70" r="2" fill="#d8b4fe" />
+</svg>
