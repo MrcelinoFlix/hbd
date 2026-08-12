@@ -169,8 +169,8 @@ export default function HomePage() {
   // ======================================================
 
   const memoryImages = [
-    "/astri2.jpg",
-    "/astri3.jpg",
+    "/astri2.JPG",
+    "/astri3.JPG",
     "/astri4.jpg",
     "/astri5.jpg",
     "/astri6.jpg",
